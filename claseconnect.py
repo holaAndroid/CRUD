@@ -10,7 +10,7 @@ class Claseconnect():
         self.db = pymysql.connect(
             host="localhost",
             port=3306, user="root",
-            passwd="holaAndroid10",
+            passwd="******",
             db="company"
         )
     def AbrirConnect(self):
